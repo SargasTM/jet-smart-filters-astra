@@ -17,6 +17,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 add_filter( 'jet-smart-filters/providers/epro-products/before-ajax-content', 'jet_smart_filters_astra_shop_customization' );
+add_filter( 'jet-smart-filters/providers/epro-archive-products/before-ajax-content', 'jet_smart_filters_astra_shop_customization' );
 
 if ( ! function_exists( 'jet_smart_filters_astra_shop_customization' ) ) {
 
